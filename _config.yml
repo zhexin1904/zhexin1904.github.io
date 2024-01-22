@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhexin Xu Personal Homepage"
+title                    : "Zhexin Xu"
 title_separator          : "-"
-name                     : &name "Zhexin Xu"
+name                     : &name "Zhexin(Jason) Xu"
 description              : &description "MS in NEURAL"
 url                      : https://zhexin1904.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
