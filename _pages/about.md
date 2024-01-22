@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a matser student at Northeastern University Robotics program, and I am also a graduate students in Northeastern University Robust Autonomy Lab, under the direction of Prof. David Rosen.
+I am currently a master's student in the Northeastern University Robotics program, and I am also a graduate student in the Northeastern University Robust Autonomy Lab[NEURAL](https://neural.lab.northeastern.edu/), under the direction of.[Professor David M. Rosen](https://david-m-rosen.github.io/)
 
-Research interests: Lidar-inertial navigation, Multi-sensor fusion for localization and maping.
+I am broadly interested in topics related to state estimation for mobile robotics systems. Currently, I am focusing on Lidar-inertial navigation, multi-sensor fusion for localization and mapping.
