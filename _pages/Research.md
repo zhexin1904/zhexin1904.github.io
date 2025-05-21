@@ -19,7 +19,7 @@ author_profile: true
 
 1, (More efficient and faster) Distributed bundle adjustment solver(ongoing...)
 
-![Early Result](/home/jason/zhexin1904.github.io/images/BAL_20Agents_Simulation.png)
+![Early Result](../images/BAL_20Agents_Simulation.png)
 
 2, Distributed certifiable estimation (ongoing...)
 
