@@ -13,7 +13,9 @@ author_profile: true
 
 [Certifiable Factors](https://github.com/NEU-RAL/CertifiableFactors)
 
- 
+ ![Early Result](../images/ICRA_2025.png)
+
+
 
 # Distributed Optimization
 
