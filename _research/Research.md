@@ -13,7 +13,9 @@ author_profile: true
 
 [Certifiable Factors](https://github.com/NEU-RAL/CertifiableFactors)
 
- 
+ ![Early Result](../images/ICRA_2025.png)
+
+
 
 # Distributed Optimization
 
@@ -22,6 +24,8 @@ author_profile: true
 ![Early Result](../images/BAL_20Agents_Simulation.png)
 
 2, Distributed certifiable estimation (ongoing...)
+
+
 
 # Large-scale and long-term autonomous operation
 
