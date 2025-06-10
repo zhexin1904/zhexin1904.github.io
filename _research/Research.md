@@ -16,7 +16,7 @@ author_profile: true
 
 [Certifiable Factors](https://github.com/NEU-RAL/CertifiableFactors)
 
- ![Early Result](/home/jason/zhexin1904.github.io/images/ICRA_2025.png)
+ ![Early Result](../images/ICRA_2025.png)
 
 
 
@@ -28,7 +28,7 @@ author_profile: true
 
 1, (More efficient and faster) Distributed bundle adjustment solver. (ongoing...)
 
-![Early Result](/home/jason/zhexin1904.github.io/images/BAL_20Agents_Simulation.png)
+![Early Result](../images/BAL_20Agents_Simulation.png)
 
 
 
