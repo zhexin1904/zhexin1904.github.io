@@ -14,6 +14,6 @@ I am broadly interested in the mathematical and algorithmic foundations of robot
 
 
 
-**Collaboration is very very very welcome if you’re interested !**
+**Collaboration is very welcome if you’re interested !**
 
 (xu.zhex@northeastern.edu)

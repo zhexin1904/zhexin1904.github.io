@@ -7,9 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-# Certifiable Estimation
+# Current research
 
-1, Trying to make certifiable estimation implementation easier and (really) used in real robotics application (ongoing...)
+## Certifiable Estimation
+
+1, Trying to make certifiable estimation implementation easier and used in real robotics application (ongoing...)
 
 [Certifiable Factors](https://github.com/NEU-RAL/CertifiableFactors)
 
@@ -17,17 +19,23 @@ author_profile: true
 
 
 
-# Distributed Optimization
+2, Robust && certifiable estimation (learning and exploring)
 
-1, (More efficient and faster) Distributed bundle adjustment solver(ongoing...)
+
+
+## Distributed Optimization
+
+1, Faster and scalable distributed bundle adjustment solver(ongoing...)
 
 ![Early Result](../images/BAL_20Agents_Simulation.png)
 
 2, Distributed certifiable estimation (ongoing...)
 
+Based Certifiable factors, with better distributed system designing, hopefully achieve fast convergence than current RBCD-based methods.
 
+# Other research interests
 
-# Large-scale and long-term autonomous operation
+## Large-scale and long-term autonomous operation
 
-1, Sparsification of both nodes (i.e., point cloud points or landmarks) and edges (i.e., measurements) in an "in a principled and mathematically provable manner", is a potential approach to address computational and memory considerations (in exploring/really interested but not really get started on :sweat_smile:)
+1, Sparsification of both nodes (i.e., point cloud points or landmarks) and edges (i.e., measurements) in a principled and mathematically provable manner, is a potential approach to address computational and memory considerations.
 
