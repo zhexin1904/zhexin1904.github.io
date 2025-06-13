@@ -10,6 +10,10 @@ author_profile: true
 
 # Current research
 
+I’ve been deeply influenced by my advisor Dave’s research style, and I’m trying to explore and address fundamental problems in robotic state estimation using tools from optimization, differential geometry, probability theory, and information theory. Coming from an engineering background, I also strive to translate these ideas into practical systems — such as high-performance C++ libraries and field robotics experiments.
+
+The dream seems a little bit ambitious, and I’m still learning along the way:)
+
 ## Certifiable Estimation
 
 1, Trying to make certifiable estimation implementation easier and used in more real robotics application (ongoing...), and brings more developed feature (like incremental estimation and robust estimation) to certifiable algorithm. (ongoing...)
@@ -40,7 +44,11 @@ Based on our certifiable factors and distributed second-order optimization algor
 
 ## Large-scale and long-term autonomous operation
 
-1, Sparsification of both nodes (i.e., point cloud points or landmarks) and edges (i.e., measurements) in a principled and mathematically provable manner, is a potential approach to address computational and memory considerations.
+Edges/nodes Sparsification.
+
+Lifelong localization/mapping
+
+New map/environment representation.
 
 ## Information-based algorithm
 
