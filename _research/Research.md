@@ -42,6 +42,8 @@ Based on our certifiable factors and distributed second-order optimization algor
 
 # Other research interests
 
+(which means I haven't really done anything about them 😅  but I am always reading and following research on them, and try to do some work)
+
 ## Large-scale and long-term autonomous operation
 
 Edges/nodes Sparsification.
