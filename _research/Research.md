@@ -10,17 +10,25 @@ author_profile: true
 
 # Current research
 
-I’ve been deeply influenced by my advisor Dave’s research style, and I’m trying to explore and address fundamental problems in robotic state estimation using tools from optimization, differential geometry, probability theory, and information theory. Coming from an engineering background, I also strive to translate these ideas into practical systems — such as high-performance C++ libraries and field robotics experiments.
+I’m trying to explore and address fundamental problems in robotic state estimation using tools from optimization, differential geometry, probability theory, and information theory. Coming from an engineering background, I also strive to translate these ideas into practical systems — such as high-performance C++ libraries and field robotics experiments.
 
 The dream seems a little bit ambitious, and I’m still learning along the way:)
 
 ## Certifiable Estimation
 
-1, Trying to make certifiable estimation implementation easier and used in more real robotics application (ongoing...), and brings more developed feature (like incremental estimation and robust estimation) to certifiable algorithm. (ongoing...)
+Simplifying Certifiable Estimation with Factor Graphs: Theory and System
 
-[Certifiable Factors](https://github.com/NEU-RAL/CertifiableFactors)
+To lower the barrier to entry for certifiable methods, we propose a **certifiable factor-graph optimization** framework built entirely on **GTSAM**. It:
 
- ![Early Result](../images/ICRA_2025.png)
+1. Makes explicit the theoretical connection between certifiable estimation and factor-graph optimization—a link that prior work only implied.
+2. Makes certifiable methods accessible to systems already using factor-graph inference, enabling new applications even for users familiar only with local search.
+3. Facilitates rapid development of new certifiable algorithms with minimal implementation effort.
+
+Preprint coming soon!
+
+[Certifiable Factors](https://github.com/NEU-RAL/CertifiableFactors) (Old version, new code base will be released soon!)
+
+Workshop Version Poster: ![Early Result](../images/ICRA_2025.png)
 
 
 
@@ -30,7 +38,7 @@ The dream seems a little bit ambitious, and I’m still learning along the way:)
 
 ## Distributed Optimization
 
-1, (More efficient and faster) Distributed bundle adjustment solver. (ongoing...)
+1, Distributed second-order bundle adjustment solver. (ongoing...)
 
 ![Early Result](../images/BAL_20Agents_Simulation.png)
 
@@ -40,20 +48,11 @@ The dream seems a little bit ambitious, and I’m still learning along the way:)
 
 Based on our certifiable factors and distributed second-order optimization algorithm, trying to achieve faster convergence than the currently leading RBCD-based methods.
 
-# Other research interests
-
-(which means I haven't really done anything about them 😅  but I am always reading and following research on them, and try to do some work)
-
 ## Large-scale and long-term autonomous operation
 
-Edges/nodes Sparsification.
+1, Edges/nodes Sparsification.
 
-Lifelong localization/mapping
+2, Multi-session map merging
 
-New map/environment representation.
+3, New map/environment representation.
 
-## Information-based algorithm
-
-information-based planning, mapping, calibration...
-
-Active SLAM...
