@@ -17,7 +17,7 @@ The dream seems a little bit ambitious, and I’m still learning along the way:)
 
 ## Certifiable Estimation
 
-Simplifying Certifiable Estimation with Factor Graphs: Theory and System
+1, Simplifying Certifiable Estimation with Factor Graphs: Theory and System (Preprint coming soon!)
 
 To lower the barrier to entry for certifiable methods, we propose a **certifiable factor-graph optimization** framework built entirely on **GTSAM**. It:
 
@@ -25,9 +25,7 @@ To lower the barrier to entry for certifiable methods, we propose a **certifiabl
 2. Makes certifiable methods accessible to systems already using factor-graph inference, enabling new applications even for users familiar only with local search.
 3. Facilitates rapid development of new certifiable algorithms with minimal implementation effort.
 
-Preprint coming soon!
-
-[Certifiable Factors](https://github.com/NEU-RAL/CertifiableFactors) (Old version, new code base will be released soon!)
+[Certifiable Factors](https://github.com/NEU-RAL/CertifiableFactors) (Workshop version, new code base will be released soon!)
 
 Workshop Version Poster: ![Early Result](/home/jason/zhexin1904.github.io/images/ICRA_2025.png)
 
