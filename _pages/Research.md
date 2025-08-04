@@ -27,7 +27,7 @@ To lower the barrier to entry for certifiable methods, we propose a **certifiabl
 
 [Certifiable Factors](https://github.com/NEU-RAL/CertifiableFactors) (Workshop version, new code base will be released soon!)
 
-Workshop Version Poster: ![Early Result](/home/jason/zhexin1904.github.io/images/ICRA_2025.png)
+Workshop Version Poster: ![Early Result](../images/ICRA_2025.png)
 
 
 
@@ -39,7 +39,7 @@ Workshop Version Poster: ![Early Result](/home/jason/zhexin1904.github.io/images
 
 1, Distributed second-order bundle adjustment solver. (ongoing...)
 
-![Early Result](/home/jason/zhexin1904.github.io/images/BAL_20Agents_Simulation.png)
+![Early Result](../images/BAL_20Agents_Simulation.png)
 
 
 
