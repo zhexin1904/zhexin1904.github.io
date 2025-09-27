@@ -19,12 +19,13 @@ school: "N/A"
 notes: ""
 include_on_website: true
 image: "2025-Xu-Certi-GNC-1.gif"
-links_to_code: ""
+paperurl: ""
+links_to_code: "https://github.com/zhexin1904"
 links_to_video: ""
 links_to_website: ""
 collection: publications
 permalink: /publications/2025-Xu-Certi-GNC
-excerpt: 'This work explores the integration of graduated non-convexity methods with certifiable optimization for robust factor graph optimization.'
+excerpt: 'This work explores the integration of graduated non-convexity methods with certifiable optimization techniques to achieve robust and globally optimal solutions in factor graph optimization problems commonly encountered in robotics and computer vision.'
 citation: 'Xu, Z., Zhang, H., Calatrava, H., Closas, P., & Rosen, D. (2025). "Certifiable Factor Graph Optimization with Graduated Non-Convexity." <i>Under review at ICRA 2026</i>.'
 ---
 

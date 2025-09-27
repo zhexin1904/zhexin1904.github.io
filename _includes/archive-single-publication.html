@@ -1,0 +1,73 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% elsif post.image %}
+  {% capture teaser %}{{ post.image }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="publication__wrapper">
+      {% if teaser %}
+        <div class="publication__image">
+          <img src=
+            {% if teaser contains "://" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | prepend: "/images/publications/" | prepend: base_path }}"
+            {% endif %}
+            alt="{{ title }}" class="publication__thumbnail">
+        </div>
+      {% endif %}
+      
+      <div class="publication__content">
+        <h3 class="archive__item-title" itemprop="headline">
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          {% else %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          {% endif %}
+        </h3>
+        
+        {% if post.authors %}
+          <p class="publication__authors">{{ post.authors }}</p>
+        {% endif %}
+        
+        {% if post.venue %}
+          <p class="publication__venue"><em>{{ post.venue }}</em>, {{ post.year | default: post.date | date: "%Y" }}</p>
+        {% endif %}
+        
+        {% if post.excerpt %}
+          <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 200 }}</p>
+        {% endif %}
+        
+        <div class="publication__links">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" class="btn btn--primary btn--small">Paper</a>
+          {% endif %}
+          {% if post.arxiv %}
+            <a href="{{ post.arxiv }}" class="btn btn--secondary btn--small">arXiv</a>
+          {% endif %}
+          {% if post.links_to_code and post.links_to_code != "" %}
+            <a href="{{ post.links_to_code }}" class="btn btn--secondary btn--small">Code</a>
+          {% endif %}
+          {% if post.links_to_website and post.links_to_website != "" %}
+            <a href="{{ post.links_to_website }}" class="btn btn--secondary btn--small">Website</a>
+          {% endif %}
+          {% if post.links_to_video and post.links_to_video != "" %}
+            <a href="{{ post.links_to_video }}" class="btn btn--secondary btn--small">Video</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
