@@ -1,8 +1,10 @@
 ---
-title: "Implementing Robust M-Estimators with Certifiable Factor Graph Optimization: "Zhexin Xu, Hanna Zhang, Helena Calatrava, Pau Closas, David Rosen"
-venue: "Under review at 1CRA 2026"
-year: "2020"
-status: "confenrence"
+title: "Implementing Robust M-Estimators with Certifiable Factor Graph Optimization"
+authors: "Zhexin Xu, Hanna Zhang, Helena Calatrava, Pau Closas, David Rosen"
+venue: "Under review at ICRA 2026"
+date: 2025-01-01
+year: "2025"
+status: "conference"
 arxiv: ""
 official_link: 
 doi: ""
@@ -12,14 +14,18 @@ pages: ""
 publisher: ""
 month: ""
 address: ""
-type: "confenrence"
+type: "conference"
 school: "N/A"
 notes: ""
 include_on_website: true
-image: "2025-Xu-Certi-GN2.png"
+image: "2025-Xu-Certi-GNC-2.png"
 links_to_code: ""
 links_to_video: ""
 links_to_website: ""
 collection: publications
 permalink: /publications/2025-Xu-Certi-FGO
+excerpt: 'This paper presents a novel approach to implementing robust M-estimators using certifiable factor graph optimization techniques.'
+citation: 'Xu, Z., Zhang, H., Calatrava, H., Closas, P., & Rosen, D. (2025). "Implementing Robust M-Estimators with Certifiable Factor Graph Optimization." <i>Under review at ICRA 2026</i>.'
 ---
+
+This paper presents a novel approach to implementing robust M-estimators using certifiable factor graph optimization techniques for improved robustness in SLAM and other robotics applications.
