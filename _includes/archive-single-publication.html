@@ -2,8 +2,6 @@
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% elsif post.image %}
-  {% capture teaser %}{{ post.image }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
 {% endif %}
@@ -14,60 +12,84 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <div class="publication__wrapper">
-      {% if teaser %}
-        <div class="publication__image">
-          <img src=
-            {% if teaser contains "://" %}
-              "{{ teaser }}"
-            {% else %}
-              "{{ teaser | prepend: "/images/publications/" | prepend: base_path }}"
-            {% endif %}
-            alt="{{ title }}" class="publication__thumbnail">
-        </div>
+ <table>
+ <tr>
+ <td style="width: 300px"><img src="/images/publications/{{ post.image }}" width=250px style="border: 2px black; float:left; margin-right:15px; border-radius: 5px; border-style: none;"/></td>
+ <td>
+ <div>
+    <h2 style="margin-top: 10px; margin-bottom: 0px;">{{ title }}</h2>
+
+    <!-- Bold Zhexin Xu's name -->
+    {% assign authors = post.authors | replace_first: 'Zhexin Xu', '<b>Zhexin Xu</b>' %}
+
+    {% assign authors = authors | replace: '"{o}', 'ö' %}
+    {% assign authors = authors | replace: '"{u}', 'ü' %}
+    <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">{{ authors }}</h3>
+    {% if post.type contains "thesis" %}
+      <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">{% if post.type contains "phd" %}PhD{% else %}SM{% endif %} Thesis, {{ post.year }}</h3>
+      <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">Northeastern University</h3>
+    {% else %}
+      <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">
+      {{ post.venue }}, {{ post.year }}
+      {% if post.status == "in review" %}
+        (in review)
+      {% elsif post.status == "accepted" %}
+        (accepted)
+      {% elsif post.status == "to appear" %}
+        (to appear)
       {% endif %}
-      
-      <div class="publication__content">
-        <h3 class="archive__item-title" itemprop="headline">
-          {% if post.link %}
-            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-          {% else %}
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-          {% endif %}
+      </h3>
+    {% endif %}
+
+    {% if post.notes != "" %}
+      <h3 style="font-weight: normal; margin-top: 10px; margin-bottom: 0px;">
+        {{ post.notes }}
+      </h3>
+    {% endif %}
+
+    {% if post.awards != "N/A" and post.awards != "" %}
+      {% assign awards = post.awards | split: ", " %}
+      {% for award in awards %}
+        <h3 style="color: red; margin-top: 10px; margin-bottom: 0px;">
+          {{ award }}
         </h3>
-        
-        {% if post.authors %}
-          <p class="publication__authors">{{ post.authors }}</p>
+      {% endfor %}
+    {% endif %}
+
+    <h3 style="margin-top: 10px; margin-bottom: 0px;">
+
+        <!-- Website -->
+        {% if post.links_to_website != "" and post.links_to_website != "N/A" %}
+          <a style="text-decoration: none;" href="{{ post.links_to_website }}" target="_blank">Website <i class="fa fa-globe"></i></a>&nbsp;&nbsp;&nbsp;
         {% endif %}
         
-        {% if post.venue %}
-          <p class="publication__venue"><em>{{ post.venue }}</em>, {{ post.year | default: post.date | date: "%Y" }}</p>
+        <!-- Arxiv Paper -->
+        {% if post.arxiv != "" and post.arxiv != "N/A" %}
+          <a style="text-decoration: none;" href="{{ post.arxiv }}" target="_blank">Paper <i class="fa fa-file"></i></a>&nbsp;&nbsp;&nbsp;
         {% endif %}
         
-        {% if post.excerpt %}
-          <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 200 }}</p>
+        <!-- Code -->
+        {% if post.links_to_code contains "," %}
+          {% assign codes = post.links_to_code | split: ", " %}
+          Code: [
+          {% for code in codes %}
+            {% assign code_info = code | split: ": " %}
+            <a style="text-decoration: none;" href="{{ code_info.last }}" target="_blank">{{ code_info.first }} <i class="fa fa-code"></i></a>
+            {% if code != codes.last %}
+              ,&nbsp;
+            {% endif %}
+          {% endfor %}
+          ]&nbsp;&nbsp;&nbsp;
+        {% elsif post.links_to_code != "" and post.links_to_code != "N/A" %}
+          <a style="text-decoration: none;" href="{{ post.links_to_code }}" target="_blank">Code <i class="fa fa-code"></i></a>&nbsp;&nbsp;&nbsp;
         {% endif %}
-        
-        <div class="publication__links">
-          {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" class="btn btn--primary btn--small">Paper</a>
-          {% endif %}
-          {% if post.arxiv %}
-            <a href="{{ post.arxiv }}" class="btn btn--secondary btn--small">arXiv</a>
-          {% endif %}
-          {% if post.links_to_code and post.links_to_code != "" %}
-            <a href="{{ post.links_to_code }}" class="btn btn--secondary btn--small">Code</a>
-          {% endif %}
-          {% if post.links_to_website and post.links_to_website != "" %}
-            <a href="{{ post.links_to_website }}" class="btn btn--secondary btn--small">Website</a>
-          {% endif %}
-          {% if post.links_to_video and post.links_to_video != "" %}
-            <a href="{{ post.links_to_video }}" class="btn btn--secondary btn--small">Video</a>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  </article>
-</div>
+
+        <!-- Video -->
+        {% if post.links_to_video != "" and post.links_to_video != "N/A" %}
+          <a style="text-decoration: none;" href="{{ post.links_to_video }}" target="_blank">Video <i class="fa fa-film"></i></a>&nbsp;&nbsp;&nbsp;
+        {% endif %}
+    </h3>
+ </div>
+ </td>
+ </tr>
+ </table>
