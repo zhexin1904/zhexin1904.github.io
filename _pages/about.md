@@ -8,12 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a last-year master's student in the Northeastern University Robotics program, and I am also a full-time CO-OP research assistant in the Northeastern University Robust Autonomy Lab [NEURAL](https://neural.lab.northeastern.edu/), under the direction of [Professor David M. Rosen](https://david-m-rosen.github.io/)
+I am currently a last-year master's student in the Northeastern University Robotics program, and I am also a research assistant in the Northeastern University Robust Autonomy Lab [NEURAL](https://neural.lab.northeastern.edu/), under the direction of [Professor David M. Rosen](https://david-m-rosen.github.io/)
 
-I am broadly interested in the mathematical and algorithmic foundations of robotic systems, especially the mathematical foundations for state estimation problems. Currently, I am working on distributed second-order optimization and certifiable algorithms for the collaborative SLAM (CSLAM) problem.
+I am broadly interested in the mathematical and algorithmic foundations of robotic systems, with a particular focus on state estimation. Coming from an engineering background, I strive to translate theoretical advances into practical, deployable systems. Currently, my work centers on certifiable algorithms and global optimization, robust estimation, and distributed optimization for SLAM and computer vision problems.
 
 
-
-**Collaboration is very welcome if you’re interested !**
-
-(xu.zhex@northeastern.edu)

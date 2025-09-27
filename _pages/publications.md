@@ -5,9 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-This page shows selected journal articles and conference papers.
-For a complete list of my publications, please visit my [Google Scholar profile]({{site.author.googlescholar}}) or see my [CV](/files/cv.pdf).
-
 {% include base_path %}
 
 {% assign show_preprints = false %}
