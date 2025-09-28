@@ -20,15 +20,15 @@ My research focuses on advancing optimization techniques for robotic state estim
 
 ## Certifiable Estimation
 
-1, Factor graph-based certifiable estimation.
+1, Factor graph-based certifiable estimation 
 
-2, Robust certifiable estimation. 
+e.g., incremental certifiable estimation and new algorithmic applications
 
-3, Incremental certifiable estimation.
+2, Robust certifiable estimation
 
 ## Distributed Optimization
 
-1, Distributed second-order bundle adjustment solver.
+1, Distributed second-order optimization.
 
 2, Distributed certifiable estimation. 
 
