@@ -19,11 +19,11 @@ school: "N/A"
 awards: ""
 notes: ""
 include_on_website: true
-image: "2025-Xu-Certi-FGO-1.png"
+image: "2025-Xu-Certi-FGO-Workshop.png"
 links_to_code: "https://github.com/NEU-RAL/CertifiableFactors"
 links_to_video: ""
 links_to_website: ""
 collection: publications
-permalink: /publication/2025-Xu-Certi-FGO
+permalink: /publication/2025-Xu-Certi-FGO-workshop
 ---
 
