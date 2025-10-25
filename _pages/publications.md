@@ -16,6 +16,6 @@ Preprints
 {% endif %}
 {% for post in site.publications reversed %}
   {% if post.include_on_website %}
-    {% include archive-single.html %}
+    {% include publication-single.html %}
   {% endif %}
 {% endfor %}
