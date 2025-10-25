@@ -2,10 +2,10 @@
 title: "Simplifying Certifiable Estimation with Factor
 Graphs: Theory and System"
 authors: "Zhexin Xu, Nikolas R. Sanderson, Hanna Zhang, and David M. Rosen"
-venue: "To to submitted to a journal"
+venue: "To be submitted to a journal"
 year: "2025"
-status: "under review, arxiv link will be added soon"
-arxiv: "To be released soon"
+status: "in review"
+arxiv: "/papers/theory-and-system/"
 official_link: "To be released soon"
 doi: ""
 volume: "N/A"
