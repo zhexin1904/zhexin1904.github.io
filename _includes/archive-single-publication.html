@@ -63,9 +63,14 @@
           <a style="text-decoration: none; color: #3498db; margin-right: 15px;" href="{{ post.links_to_website }}" target="_blank">Website <i class="fa fa-globe"></i></a>
         {% endif %}
         
+        <!-- Official Paper Link -->
+        {% if post.official_link != "" and post.official_link != "N/A" %}
+          <a style="text-decoration: none; color: #3498db; margin-right: 15px;" href="{{ post.official_link }}" target="_blank">Paper <i class="fa fa-file"></i></a>
+        {% endif %}
+        
         <!-- Arxiv Paper -->
         {% if post.arxiv != "" and post.arxiv != "N/A" %}
-          <a style="text-decoration: none; color: #3498db; margin-right: 15px;" href="{{ post.arxiv }}" target="_blank">Paper <i class="fa fa-file"></i></a>
+          <a style="text-decoration: none; color: #3498db; margin-right: 15px;" href="{{ post.arxiv }}" target="_blank">arXiv <i class="fa fa-file"></i></a>
         {% endif %}
         
         <!-- Code -->

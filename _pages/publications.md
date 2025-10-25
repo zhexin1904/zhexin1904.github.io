@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+This page shows my research publications.
+
 {% include base_path %}
 
 {% assign show_preprints = false %}
