@@ -19,7 +19,7 @@ My research focuses on advancing optimization techniques for robotic state estim
 
 ## Certifiable Estimation
 
-1, Simplifying Certifiable Estimation with Factor Graphs: Theory and System (Preprint coming soon!)
+1, Simplifying Certifiable Estimation with Factor Graphs - Theory and System (Preprint coming soon!)
 
 To lower the barrier to entry for certifiable methods, we propose a **certifiable factor-graph optimization** framework built entirely on **GTSAM**. It:
 
