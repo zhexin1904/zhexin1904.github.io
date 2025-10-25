@@ -1,6 +1,5 @@
 ---
-title: "Simplifying Certifiable Estimation: A Factor Graph Optimization
-Approach"
+title: "Simplifying Certifiable Estimation: A Factor Graph Optimization Approach"
 authors: "Zhexin Xu, Nikolas R. Sanderson, and David M. Rosen"
 venue: "ICRA 2025 Workshop: Robotics in the Wild"
 year: "2025"

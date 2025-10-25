@@ -1,6 +1,5 @@
 ---
-title: "Simplifying Certifiable Estimation with Factor
-Graphs: Theory and System"
+title: "Simplifying Certifiable Estimation with Factor Graphs: Theory and System"
 authors: "Zhexin Xu, Nikolas R. Sanderson, Hanna Zhang, and David M. Rosen"
 venue: "To be submitted to a journal"
 year: "2025"
