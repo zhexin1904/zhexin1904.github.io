@@ -6,7 +6,7 @@ year: "2025"
 status: "in review"
 arxiv: ""
 paperurl: "https://zhexin1904.github.io/files/Xu_2025_Robust_Estimation_Factor_Graphs.pdf"
-official_link: ""
+official_link: "https://zhexin1904.github.io/files/Xu_2025_Robust_Estimation_Factor_Graphs.pdf"
 doi: ""
 volume: "N/A"
 number: "N/A"
@@ -25,5 +25,6 @@ links_to_video: ""
 links_to_website: ""
 collection: publications
 permalink: /publication/2025-Xu-Certi-GNC
+sitemap: false
 ---
 

@@ -25,5 +25,6 @@ links_to_video: ""
 links_to_website: ""
 collection: publications
 permalink: /publication/2025-Xu-Certi-FGO-workshop
+sitemap: false
 ---
 
