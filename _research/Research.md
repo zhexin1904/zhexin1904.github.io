@@ -26,6 +26,8 @@ e.g., incremental certifiable estimation and new algorithmic applications
 
 2, Robust certifiable estimation
 
+3, Scalable global optimization for various perception problems
+
 ## Distributed Optimization
 
 1, Distributed second-order optimization.
