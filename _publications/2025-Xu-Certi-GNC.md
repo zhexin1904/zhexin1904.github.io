@@ -1,9 +1,9 @@
 ---
 title: "Implementing Robust M-Estimators with Certifiable Factor Graph Optimization"
 authors: "Zhexin Xu, Hanna Zhang, Helena Calatrava, Pau Closas, David M. Rosen"
-venue: "Under review at ICRA 2026"
+venue: "Under review"
 year: "2025"
-status: "in review"
+status: ""
 arxiv: ""
 paperurl: "https://zhexin1904.github.io/files/xu-2025-robust-estimation-factor-graphs.pdf"
 official_link: "https://zhexin1904.github.io/files/xu-2025-robust-estimation-factor-graphs.pdf"
