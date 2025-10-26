@@ -14,5 +14,5 @@ I am broadly interested in the mathematical and algorithmic foundations of robot
 
 News
 ------
-* **[May. 2025]** Present our early result on Certifiable Factor graphs at ICRA 2025!
+* **[May. 2025]** Present our early result on certifiable factor graphs at ICRA 2025!
 
