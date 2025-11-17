@@ -15,7 +15,7 @@ The dream seems a little bit ambitious, and I’m still learning along the way:)
 
 # Current research
 
-My research focuses on advancing optimization techniques for robotic state estimation and navigation, particularly in SLAM back-ends. I am currently working on certifiable (globally optimal) algorithms, robust certifiable methods, and distributed optimization. I am interested in both foundational algorithmic problems and the development of novel applications enabled by these techniques — for example, designing velocity-related certifiable factors to extend certifiable algorithms to inertial navigation systems.
+My research focuses on advancing optimization techniques for robotic state estimation and navigation, particularly in SLAM back-ends. I am currently working on certifiable (globally optimal) algorithms, robust certifiable methods, and distributed optimization. I am interested in both foundational algorithmic problems and the development of novel applications enabled by these techniques.
 
 ## Certifiable Estimation
 
