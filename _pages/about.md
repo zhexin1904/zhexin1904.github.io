@@ -14,5 +14,9 @@ I am broadly interested in the mathematical and algorithmic foundations of robot
 
 News
 ------
+* **[Dec. 2025]** Finished my MS and starting a PhD at Northeastern University, and I’m lucky to continue being advised by Dave! Looking forward to connecting with folks working in optimization and SLAM/robotic perception. The thesis slides can be found here [coming soon].
+
 * **[May. 2025]** Present our early result on certifiable factor graphs at ICRA 2025!
+
+  
 
