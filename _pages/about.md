@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently PhD students in robotics at Northeastern University, advised by Professor [David M. Rosen](https://david-m-rosen.github.io/) and co-advised by Professor [Hanumant Singh](https://coe.northeastern.edu/people/singh-hanumant/).
+I am currently PhD student in robotics at Northeastern University, advised by Professor [David M. Rosen](https://david-m-rosen.github.io/) and co-advised by Professor [Hanumant Singh](https://coe.northeastern.edu/people/singh-hanumant/).
 
 I am broadly interested in the mathematical and algorithmic foundations of robotic systems, with a particular focus on state estimation. I also strive to translate theoretical advances into practical, deployable systems. Currently, my work centers on certifiable algorithms, robust estimation, and distributed optimization for SLAM and computer vision problems.
 
