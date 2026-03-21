@@ -10,7 +10,7 @@ author_profile: true
 
 {% include base_path %}
 
-My research focuses on advancing optimization techniques for robotic state estimation and navigation, particularly in SLAM back-ends. My ongoing work focuses on:
+My research focuses on advancing optimization methods for robotic state estimation and navigation.
 
 ## Certifiable Algorithm
 - Scalable certifiable estimation  
