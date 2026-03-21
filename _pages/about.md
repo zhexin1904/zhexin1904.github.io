@@ -10,7 +10,7 @@ redirect_from:
 
 I am a first-year PhD student at Northeastern University, advised by Professor [David M. Rosen](https://david-m-rosen.github.io/).  I study optimization for robotics.
 
-My research centers on developing scalable and verified optimal algorithm for SLAM and computer vision problems.
+I am passionate about developing scalable algorithms with theoretical performance guarantees for a broad range of robotics problems.
 
 News
 ------
