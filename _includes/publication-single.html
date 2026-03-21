@@ -53,7 +53,7 @@
       <a style="text-decoration: none;" href="{{ post.arxiv }}" target="_blank">arXiv <i class="fa fa-file"></i></a>&nbsp;&nbsp;&nbsp;
     {% endif %}
     
-    {% if post.links_to_code and post.links_to_code != "" and post.links_to_code != "N/A" and post.links_to_code != "To be released soon" %}
+    {% if post.links_to_code and post.links_to_code != "" and post.links_to_code != "N/A" and post.links_to_code != "To be released soon" and post.links_to_code != "Code coming soon" %}
       {% if post.links_to_code contains "," %}
         {% assign codes = post.links_to_code | split: ", " %}
         Code: [
@@ -68,6 +68,10 @@
       {% else %}
         <a style="text-decoration: none;" href="{{ post.links_to_code }}" target="_blank">Code <i class="fa fa-code"></i></a>&nbsp;&nbsp;&nbsp;
       {% endif %}
+    {% endif %}
+
+    {% if post.links_to_code and (post.links_to_code == "To be released soon" or post.links_to_code == "Code coming soon") %}
+      <span style="color: #666;">{{ post.links_to_code }}</span>&nbsp;&nbsp;&nbsp;
     {% endif %}
 
     {% if post.links_to_video and post.links_to_video != "" and post.links_to_video != "N/A" %}
