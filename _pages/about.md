@@ -18,7 +18,7 @@ News
 
 * **[Dec. 2025]** Finished my MS and starting a PhD at Northeastern University, and I’m lucky to continue being advised by Dave!
 
-* **[May. 2025]** Present our early result on certifiable factor graphs at ICRA 2025!
+* **[May. 2025]** Present our early result on Certifiable Factor graphs at ICRA 2025.
 
   
 
